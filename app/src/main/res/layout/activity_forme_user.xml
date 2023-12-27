@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FormeUser">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarFormUser"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?android:attr/colorPrimary"
+        tools:ignore="MissingConstraints">
+    </androidx.appcompat.widget.Toolbar>
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintTop_toBottomOf="@id/toolbarFormUser"
+                android:layout_height="100dp"
+                android:src="@drawable/fb"
+                android:id="@+id/logoFb">
+            </ImageView>
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/errorFormUser"
+        android:hint="Name"
+        app:layout_constraintTop_toBottomOf="@id/logoFb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:background="@color/red"
+        android:text=""
+        android:textSize="25sp">
+    </TextView>
+
+    <EditText
+        android:id="@+id/nameUser"
+        android:hint="Name"
+        app:layout_constraintTop_toBottomOf="@id/errorFormUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+
+        android:padding="10dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/emailUser"
+        android:inputType="textEmailAddress"
+
+        android:hint="Email"
+        app:layout_constraintTop_toBottomOf="@id/nameUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:padding="10dp">
+    </EditText>
+    <EditText
+        android:id="@+id/passwordUser"
+        android:inputType="textPassword"
+
+        android:hint="Password"
+        app:layout_constraintTop_toBottomOf="@id/emailUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:padding="10dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/confirmePassword"
+        android:inputType="textPassword"
+
+        android:hint="Confirme password"
+        app:layout_constraintTop_toBottomOf="@id/passwordUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:padding="10dp">
+    </EditText>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        android:paddingVertical="10dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="1"
+        android:id="@+id/userCreate"
+        android:text="Creer">
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/SupprimerContext"
+        app:showAsAction="always"
+        android:icon="@drawable/remove"
+        android:title="Supprimer">
+    </item>
+    <item
+        android:id="@+id/ajouterContext"
+        app:showAsAction="always"
+        android:icon="@drawable/show"
+        android:title="Afficher">
+    </item>
+
+
+</menu>

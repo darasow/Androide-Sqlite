@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/ajouter"
+        app:showAsAction="always"
+        android:icon="@drawable/add"
+        android:title="Ajouter">
+    </item>
+    <item
+        android:id="@+id/deleted"
+        app:showAsAction="never"
+        android:icon="@drawable/remove"
+        android:title="Suprimer">
+    </item>
+    <item
+        android:id="@+id/deconection"
+        app:showAsAction="always"
+        android:icon="@drawable/logout"
+        android:title="Deconnecter">
+    </item>
+    <item
+        android:id="@+id/config"
+        app:showAsAction="never"
+        android:icon="@drawable/config"
+        android:title="Configuer">
+    </item>
+</menu>

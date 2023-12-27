@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Facebook</string>
+    <string-array name="postes">
+        <item>Poste 1</item>
+        <item>Poste 2</item>
+        <item>Poste 3</item>
+        <item>Poste 5</item>
+        <item>Poste 6</item>
+        <item>Poste 7</item>
+        <item>Poste 8</item>
+        <item>Poste 9</item>
+        <item>Poste 1</item>
+        <item>Poste 2</item>
+        <item>Poste 3</item>
+        <item>Poste 5</item>
+        <item>Poste 6</item>
+        <item>Poste 7</item>
+        <item>Poste 8</item>
+        <item>Poste 9</item>
+        <item>Poste 1</item>
+        <item>Poste 2</item>
+        <item>Poste 3</item>
+        <item>Poste 5</item>
+        <item>Poste 6</item>
+        <item>Poste 7</item>
+        <item>Poste 8</item>
+        <item>Poste 9</item>
+    </string-array>
+</resources>
